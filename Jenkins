@@ -1,7 +1,7 @@
 def call(body) {
 body()
 
-node('server_build_slave') {
+node('any') {
 
 try {
 	stage('Checkout') {
